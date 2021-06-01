@@ -14,7 +14,7 @@ public class AnagramGroup {
     public static List<List<String>> anagrams(String[] input){
         List<List<String>> output = new ArrayList<>();
         Map<String, HashSet<String>> map = new HashMap<>();
-
+        StringBuilder sb;
         for(String str: input){
             String key = str;
             String[] array =  str.split("");
@@ -43,7 +43,7 @@ public class AnagramGroup {
     public static List<List<String>> anagrams2(String[] input){
         List<List<String>> output = new ArrayList<>();
         Map<String, String> map = new HashMap<>();
-
+        StringJoiner joiner;
         for(String str: input){
             String key = str;
             byte[] array =  str.getBytes();
