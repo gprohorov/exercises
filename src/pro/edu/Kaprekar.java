@@ -15,8 +15,11 @@ public class Kaprekar {
         for (int i = 0; i <string.length() ; i++) {
             reversed += string.charAt(string.length() - 1 - i);
         }
+        StringBuilder sb = new StringBuilder(string);
+        String rvrsd = sb.reverse().toString();
         return reversed;
     }
+
     public static int toAsc(int num){
 
         String string = String.valueOf(num);
