@@ -3,9 +3,9 @@ package pro.edu;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Encryppyion {
+public class Encrypption {
     public static  String encrypt(String text){
-        System.out.println(" ------------");
+
         System.out.println(text.length());
         text = text.replaceAll(" ", "");
         int length = text.length();

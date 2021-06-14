@@ -25,7 +25,6 @@ public class Prefix {
 */
 
     public static String prefix(String[] array) {
-        // your code is here
 
         String longestPrefix = "";
         if (array.length > 0) {
