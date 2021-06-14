@@ -1,7 +1,7 @@
-/*
+package pro.edu;/*
   @author   george
   @project   exercises
-  @class  AnagramGroup
+  @class  pro.edu.AnagramGroup
   @version  1.0.0 
   @since 13.05.2021 - 22.34
 */

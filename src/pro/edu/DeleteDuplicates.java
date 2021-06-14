@@ -1,4 +1,4 @@
-/*
+package pro.edu;/*
   @author   george
   @project   exercises
   @class  deleteDuplicates
