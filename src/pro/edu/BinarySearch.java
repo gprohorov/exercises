@@ -7,7 +7,7 @@ package pro.edu;
   @since 13.05.2021 - 20.56
 */
 
-public class binarySearch {
+public class BinarySearch {
 
     public static int search(int[] array, int key){
         int index = -1;

@@ -1,6 +1,6 @@
 package pro.edu;
 
-public class IfElse {
+public class Casting {
 
     public static void main(String[] args) {
         int a = 1;
